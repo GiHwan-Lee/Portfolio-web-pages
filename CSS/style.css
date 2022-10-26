@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto Slab", serif;
+  color: #000;
+}
+
+#ul-menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#top {
+  display: inline-flex;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
