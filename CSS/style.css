@@ -1,11 +1,17 @@
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Times New Roman", Times, serif;
   color: #000;
 }
 
 #ul-menu li {
-  list-style-type: none;
   display: inline-block;
+
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 #top {
