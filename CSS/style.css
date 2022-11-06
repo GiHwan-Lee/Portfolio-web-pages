@@ -1,6 +1,14 @@
 body {
   font-family: "Times New Roman", Times, serif;
   color: #000;
+  text-align: center;
+}
+
+#top {
+  display: inline-flex;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #ul-menu li {
@@ -13,9 +21,10 @@ body {
   padding-inline-start: 40px;
 }
 
-#top {
-  display: inline-flex;
-  align-items: center;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+.first {
+  font-size: 2em;
+  padding-top: 10em;
+  padding-right: 0px;
+  padding-bottom: 10em;
+  padding-left: 0px;
 }
